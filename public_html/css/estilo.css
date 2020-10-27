@@ -1,0 +1,262 @@
+body {
+    background-color: #eaeaea !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+ * Menu Superior
+ */
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-top: -3px;
+}
+
+.site-header {
+    background-color: #097CAD;
+    height: 120px;
+    padding-left: 15%;
+}
+
+.site-header a {
+    color: black;
+    padding-top: 10px;
+    transition: ease-in-out color .5s;
+}
+
+.site-header a:hover {
+    color: #FF1940;
+    text-decoration: none;
+}
+
+/*
+ * Banner principal
+ */
+
+.jumbotron {
+    background-color: #FF1940;
+    height: 350px;
+    font-size: 11pt;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.banner {
+    margin-top: -10px;
+}
+
+.imgtopo {
+    margin-top: -40px;
+    width: 450px;
+    height: 300px;
+    margin-left: 15px;
+}
+
+/*
+ * notícias no meio da página
+ */
+
+.chamadaIMG {
+    height: 300px;
+    margin-bottom: 300px;
+}
+
+.thumbnail {
+    text-align: center;
+    padding: 10px;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.chamadaBtn {
+    position: inherit;
+    right: 30px;
+    bottom: 10px;
+    background-color: #FF1940;
+    margin-top: 10px;
+}
+
+.vertical {
+    position: absolute;
+    width: 10px;
+    left: 0px;
+    top: 40px;
+}
+
+#principal {
+    background-color: #fff !important;
+    margin-top: -20px;
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+/*
+ * Rodapé
+ */
+
+.rodape {
+    color: black;
+    font-size: 10pt;
+    font-family: arial;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #097CAD;
+    margin-top: 15px;
+}
+
+.tfooter {
+    color: black;
+    margin-left: 350px;
+    margin-top: 15px;
+}
+#rod {
+    font-size: 25pt;
+    font-family: "sofia";
+    padding-left: 15%;
+}
+#rod1 {
+    font-size: 20pt;
+    font-family: "sofia";
+     padding-left: 10%;
+}
+#rod2 {
+    font-size: 15pt;
+    font-family: "sofia";
+  
+}
+
+/*
+ * Páginas internas de notícias
+ */
+
+#topoNoticia {
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.subNoticia {
+    color: #47896B;
+}
+
+.pNoticia {
+    text-indent: 30pt;
+    text-align: justify;
+}
+
+.letraPag{
+    padding-top: 30px;
+    font-family: "Sofia";
+    font-size: 40pt;
+    
+}
+
+
+/*
+ * materia
+ */
+
+.mat {
+    font-size: 16pt;
+}
+
+.emp {
+    /*background-color: red;*/
+    text-align: justify;
+    text-indent: 30pt;
+    /*height: 1000px  ;*/
+}
+
+#topofale {
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 90px;
+}
+
+hr {
+    background-color: black;
+    height: 1px;
+}
+
+#mapa {
+    margin-top: -300px;
+}
+
+
+/*
+* BOTÃO FIXO
+*/
+
+.fixoBtn{
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+    background-color: #FF1940;
+    margin-top: 10px;
+}
+
+
+
+/*
+Menu dropdown
+*/
+.dropbtn {
+  background-color:#097CAD ;
+  color: black;
+  padding: 30px;
+  margin-top: -20px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 20pt;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #eaeaea}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:#eaeaea ;
+}
+
+
+#top {
+    padding-top: 15px;
+    font-family: "Sofia";
+    font-size: 25pt;
+}
+
+
+/*
+slaider
+*/
+
+
